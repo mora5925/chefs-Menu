@@ -1,14 +1,17 @@
 @import url("https://fonts.googleapis.com/css?family=Source+Sans+Pro:300,300i,400,400i,600,600i,700&display=swap");
 
 
+
 html {
   font-size: 62.5%;
 }
 
 .App {
-  background-image: url(./recbackground.png);
-  background-repeat: no-repeat;
-  background-size: 100% 100%;
+  background-image: url(https://c8.alamy.com/comp/KKP7A5/healthy-food-background-for-recipes-menu-or-list-with-various-fresh-KKP7A5.jpg);
+  position: fixed;
+  min-width: 100%;
+  min-height: 100%;
+  background-size: cover;
   display: flex;
   flex-direction: column;
   align-items: center;
@@ -18,7 +21,7 @@ h1 {
   font-size: 8rem;
   letter-spacing: 0.1rem;
   font-style: italic;
-  color: #8b4513;
+  color: 		#FFF5EE;
   text-shadow: 0 0.2rem 5rem rgb(139, 69, 19);
   text-transform: uppercase;
   margin: 4rem 0;
@@ -30,13 +33,12 @@ h1 {
   display: flex;
   justify-content: center;
   align-items: center;
-  background-color: #8b4513;
+  background-color:#DEB887;
   border-radius: 0.5rem;
   margin-bottom: 5rem;
   box-shadow: 1rem 2rem 5rem rgb(255,221,202);
   position: relative;
 }
-
 
 .search-form input {
   font-size: 1.6rem;
