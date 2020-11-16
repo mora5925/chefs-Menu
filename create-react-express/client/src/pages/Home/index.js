@@ -1,6 +1,6 @@
 import React, { useState, useEffect } from "react";
-import API from "../utils/API";
-import React from "react";
+import API from "../../utils/API";
+import "./Home.css";
 const Home = () => {
 
     const [food, setfood] = useState([])
@@ -45,7 +45,7 @@ const Home = () => {
     
     return (
       <div className="App">     
-        <h1 onClick={getData}>Chef's Menu</h1>
+        <h1>Chef's Menu</h1>
       <form className="search-form">
         <input className="search-bar" type="text" name="food" onChange={handleInputChange}/>
         <button className="search-button" type="submit" onClick={()=>handleFormSubmit}>search</button>
